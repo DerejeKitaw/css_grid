@@ -8,7 +8,7 @@
 
 ![css_grid](./DOC/css_grid_1.png)
 
-### Give all dive tags inside wrapper 1em padding
+### Give all div tags inside wrapper 1em padding
 
 ```css
 .wrapper > div {
@@ -48,7 +48,7 @@
 
 ![css_grid](./DOC/css_grid_3.png)
 
-> Since it is grid no matter how many div tags it is going to fallow this grid template. Just to test let us duplicate or div
+> Since it is grid no matter how many div tags it is going to fallow this grid template. Just to test let us duplicate our div
 > ![css_grid](./DOC/css_grid_4.png)
 
 ### Divide the grid column into three
@@ -60,7 +60,7 @@
 }
 ```
 
-![css_grid](./DOC/css_grid_4.png)
+![css_grid](./DOC/css_grid_5.png)
 
 ### What will hapen if
 
@@ -71,7 +71,7 @@
 }
 ```
 
-![css_grid](./DOC/css_grid_4.png)
+![css_grid](./DOC/css_grid_6.png)
 
 > For now let us change it to
 
@@ -81,3 +81,15 @@
   grid-template-columns: 70% 30%;
 }
 ```
+
+### Give padding or spaces between columns
+
+```css
+.wrapper {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-column-gap: 1em;
+}
+```
+
+![css_grid](./DOC/css_grid_7.png)
