@@ -105,3 +105,11 @@
 }
 ```
 ![css_grid](./DOC/css_grid_7.png)
+### If columns and rows gap are same you can use grid-gap
+```css
+.wrapper {
+display: grid;
+grid-template-columns: 70% 30%;
+grid-gap:1em;
+}
+```
