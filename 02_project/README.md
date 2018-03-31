@@ -130,3 +130,68 @@
 ![css_grid](./DOC/css_grid_project_9.png)
 
 ### make the nested class a grid. How?
+```css
+.nested{
+    display:grid;
+}
+```
+> this activated the grid. in above practice the grid was not activated befor aply templat.
+![css_grid](./DOC/css_grid_project_10.png)
+### Can we make the nested dive columns?
+```css
+.nested{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+```
+![css_grid](./DOC/css_grid_project_11.png)
+### To identify the nested div columns give border and different color
+```css
+.nested >div{
+    border:#333 1px solid;
+}
+```
+![css_grid](./DOC/css_grid_project_12.png)
+### Give the nested grid height 70px
+```css
+.nested{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 70px;
+}
+```
+![css_grid](./DOC/css_grid_project_13.png)
+### Add grid gap of 1em
+```css
+.nested{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 70px;
+    grid-gap: 1em;
+}
+```
+![css_grid](./DOC/css_grid_project_14.png)
+### Add padding to the nested div and see how everything rearange to acumudate the spacing
+```css
+.nested >div{
+    border:#333 1px solid;
+    padding: 1em;
+}
+```
+![css_grid](./DOC/css_grid_project_15.png)
+### Duplicate the nested div tags and see how they will fit inside the grid
+```html
+<div class="nested">
+           <div>Lorem</div>
+           <div>Lorem</div>
+           <div>Lorem</div>
+           <div>Lorem</div>
+           <div>Lorem</div>
+           <div>Lorem</div>
+           <div>Lorem</div>
+           <div>Lorem</div>
+           <div>Lorem</div>
+       </div>
+```
+![css_grid](./DOC/css_grid_project_16.png)
+
