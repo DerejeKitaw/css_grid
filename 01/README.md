@@ -93,3 +93,15 @@
 ```
 
 ![css_grid](./DOC/css_grid_7.png)
+
+### Give padding or spaces between rows
+
+```css
+.wrapper {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+}
+```
+![css_grid](./DOC/css_grid_7.png)
