@@ -43,7 +43,6 @@
 }
 ```
 ![css_grid](./DOC/css_grid_project_2.png)
-
 ### what would happen if:
 ```css
 .wrapper{
@@ -53,7 +52,6 @@
 ```
 ![css_grid](./DOC/css_grid_project_3.png)
 > It is recommended to use fr over % or px (other usits). Because when you using % you will have an issue when you use padding and margin
-
 ### Other ways of writing `grid-template-columns: 1fr 2fr 1fr ` is
 ```css
 .wrapper{
@@ -128,7 +126,6 @@
 </html>
 ```
 ![css_grid](./DOC/css_grid_project_9.png)
-
 ### make the nested class a grid. How?
 ```css
 .nested{
@@ -194,4 +191,3 @@
        </div>
 ```
 ![css_grid](./DOC/css_grid_project_16.png)
-
